@@ -45,42 +45,40 @@
         		</div>
 
         		<div id="calculation">
-
-        			<h1>Great coverage begins with a custom quote</h1>
+					<div id="crossButton">
+        				<button id="cross">❌</button>
+        			</div>
+        			<h1>Great coverage begins<br>with a custom quote</h1>
         				
 	        		<form>
-	        			<div id="inputBoxName">
-		        			<label for="name">Your name:</label>
-		        			<input type="text" id="name" placeholder="Name" />
+	        			<div id="inputBoxLeft">
+		        			<label for="name">Your name:</label><br>
+		        			<input type="text" id="name" placeholder="Name" /><br>
+		        			<label for="country">Your country:</label><br>
+			        			<select id="country">
+			        				<option value="AU">Austria</option>
+			        				<option value="HU">Ungarn</option>
+			        				<option value="GR">Greece</option>
+			        			</select>
 	        			</div>
 
-	        			<div id="inputBoxAge">
-		        			<label for="age">Your age:</label>
-		        			<input type="number" id="age" placeholder="30" />
-	        			</div>
-
-	        			<div id="inputBoxCountry">
-		        			<label for="country">Your country:</label>
-		        			<select id="country">
-		        				<option value="AU">Austria</option>
-		        				<option value="HU">Ungarn</option>
-		        				<option value="GR">Greece</option>
-		        			</select>
-	        			</div>
-
-	        			<div id="inputBoxHorse">
-		        			<label for="horse">Your name:</label>
+	        			<div id="inputBoxRight">
+		        			<label for="age">Your age:</label><br>
+		        			<input type="number" id="age" placeholder="30" /><br>
+		        			<label for="horse">Horsepower of your car:</label><br>
 		        			<input type="number" id="horse" placeholder="70" />
 	        			</div>
 
+
+
 	        			<div id="formButtons">
-	        				<button type="submit" id="Calculate">Calculate</button>
-	        				<button type="reset" id="Reset">Reset</button>	
+	        				<button type="submit" id="calculate">Calculate</button>
+	        				<button type="reset" id="reset">Reset</button>	
 	        			</div>
 
 	        		</form>
 
-	        		<div id="calcREsult">
+	        		<div id="calcResult">
 						<table id="myTable">
 						  <tr>
 						    <th>Your Insurance Quotation:</th>
@@ -90,7 +88,7 @@
 	        			
 	        		</div>
         		</div>
-
+			</div>
         		<div id="insurInfo">
         			<h3>Un-complicating car coverage</h3>
         			<p> Understanding your coverage options shouldn't be so hard. <br> We'll guide you through available coverage types, <br> starting with who and what is covered.</p>
@@ -108,7 +106,7 @@
         			<span class="fatSpan">Benefits</span>
         			<p>12-Month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</p>	
         		</div>
-
+			
         		<div class="twinDivs">
         			<h5>Add-on protection & coverage</h5>
         			<span>For more peace of mind</span>
@@ -121,9 +119,7 @@
         			<span class="fatSpan">Earned Benefits</span>
         			<p>Accident Forgiveness | New Car Replacement &trade</p>	
         		</div>
-	
-        	</div>
- 
+
         </div>
 
     </main>

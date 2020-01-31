@@ -92,4 +92,153 @@ footer {
   align-self: center;
   font-size: 1.2vw; }
 
+#content {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+#road {
+  margin: 0;
+  width: 100%;
+  height: 60%;
+  background-image: url(../img/traffic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+#crossButton {
+  text-align: right; }
+
+#cross {
+  border-radius: 40px;
+  padding: 0.5%;
+  border: none;
+  opacity: 0.5; }
+
+#cross:hover {
+  background-color: black; }
+
+h2 {
+  color: #FFF3F3;
+  font-size: 3vw;
+  padding: 2%;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 10%;
+  box-sizing: border-box; }
+
+#quoteButton {
+  text-align: center;
+  margin-bottom: 25%;
+  visibility: initial; }
+
+#getQuote {
+  width: 40% !important;
+  padding: 3%;
+  font-size: 1.5vw; }
+
+#calculation {
+  width: 80%;
+  background-color: rgba(255, 243, 243, 0.7);
+  margin-left: 10%;
+  padding: 2%;
+  border: 1px solid #767676;
+  display: none;
+  position: absolute;
+  top: 20%;
+  box-sizing: border-box; }
+
+h1 {
+  text-align: center;
+  font-size: 3.2vw; }
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+#inputBoxLeft, #inputBoxRight {
+  width: 30%; }
+
+input, #country {
+  margin: 1%;
+  margin-bottom: 3%;
+  height: 30%;
+  width: 60%; }
+
+#formButtons {
+  text-align: center; }
+
+#reset, #calculate, #getQuote {
+  margin: 5%;
+  background-color: #339235;
+  color: #FFF3F3;
+  font-size: 1.5vw;
+  height: 20%;
+  width: 10%;
+  border-radius: 35px;
+  border: none; }
+
+#calculate:hover {
+  background-color: #FFF3F3;
+  color: #339235; }
+
+#reset:hover {
+  background-color: red; }
+
+#calcResult, #formButtons {
+  width: 100%; }
+
+#myTable {
+  margin: auto;
+  width: 100%;
+  text-align: left; }
+
+th {
+  color: #339235;
+  font-size: 1.5vw; }
+
+#insurInfo {
+  background-color: #CECECE;
+  width: 100%;
+  text-align: center; }
+
+h3 {
+  font-size: 2vw;
+  font-weight: normal; }
+
+p, span {
+  font-weight: normal; }
+
+.twinDivs {
+  width: 25%;
+  padding: 3%;
+  border-top: 1px solid #2D2D2D;
+  box-shadow: 5px 5px 5px #CFCFCF, -10px -10px 30px 10px #CFCFCF inset;
+  margin-top: 5%;
+  box-sizing: border-box; }
+
+hr {
+  border: 1px solid #CFCFCF; }
+
+h5 {
+  font-size: 1.5vw;
+  color: #59578F;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 1%; }
+
+.twinDivs ul {
+  list-style-image: url(../img/ok2.png);
+  padding-left: 30px; }
+
+li {
+  margin-bottom: 3%; }
+
+.fatSpan {
+  font-weight: bold; }
+
 /*# sourceMappingURL=insuranceStyle.css.map */
