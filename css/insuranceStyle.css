@@ -1,0 +1,95 @@
+body {
+  font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica;
+  margin: 0;
+  padding: 0; }
+
+header:not(#nav) {
+  background-color: #FFF3F3; }
+
+#imgInHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+#imgInHeaderLeft {
+  width: 40%; }
+
+#CFlogo {
+  max-width: 50%;
+  min-width: 40%;
+  padding-left: 5%;
+  text-align: left; }
+
+#imgInHeaderRight {
+  width: 80%;
+  text-align: right; }
+
+#CodeFactory {
+  max-width: 100%;
+  min-width: 50%;
+  padding: 1%;
+  padding-right: 5%; }
+
+#nav {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  background-color: #5D191B;
+  padding: 0;
+  overflow: hidden; }
+
+#navUL, #navULfooter {
+  padding-left: 2%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row; }
+
+.navLI {
+  margin-right: 5%;
+  padding-right: 5%;
+  list-style-type: none;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+
+nav a:hover, footer a:hover {
+  background-color: #FFF3F3;
+  color: #1a1a1a;
+  font-weight: bold; }
+
+.navA {
+  color: #FFF3F3;
+  text-decoration: none;
+  font-size: 2vw; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #1a1a1a;
+  padding: 0;
+  overflow: hidden;
+  color: #FFF3F3;
+  margin-top: 3%; }
+
+#footerNAV {
+  display: flex;
+  padding-top: 1%; }
+
+#imgInFOOTERright {
+  display: flex;
+  justify-content: flex-end; }
+
+#CFlogo2 {
+  max-width: 50%;
+  min-width: 15%;
+  padding-right: 5%;
+  align-self: flex-end; }
+
+#copyRight {
+  align-self: center;
+  font-size: 1.2vw; }
+
+/*# sourceMappingURL=insuranceStyle.css.map */
