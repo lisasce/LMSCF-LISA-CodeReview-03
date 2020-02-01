@@ -1,0 +1,22 @@
+team = `[{
+	"firstName":"Fran",
+	"lastName":"Simpsons",
+	"email" : "fran@index.com",
+	"pic" : "fran2.png"
+},{
+	"firstName":"Lisa",
+	"lastName":"Simpsons",
+	"email" : "lisa@index.com",
+	"pic" : "lisa.png"
+},{
+	"firstName":"Bill",
+	"lastName":"Simpsons",
+	"email" : "bill@index.com",
+	"pic" : "bill.png"
+},{
+	"firstName":"Fritz",
+	"lastName":"Simpsons",
+	"email" : "fritz@index.com",
+	"pic" : "fritz.png"
+}]`;
+

@@ -148,7 +148,8 @@ h2 {
   display: none;
   position: absolute;
   top: 20%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  text-align: center; }
 
 h1 {
   text-align: center;
@@ -161,26 +162,38 @@ form {
   flex-wrap: wrap; }
 
 #inputBoxLeft, #inputBoxRight {
-  width: 30%; }
+  width: 50%;
+  height: auto;
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+  overflow: hidden; }
 
 input, #country {
   margin: 1%;
-  margin-bottom: 3%;
+  box-sizing: border-box;
   height: 30%;
-  width: 60%; }
+  width: 60%;
+  border-top: 1px solid #2D2D2D;
+  box-shadow: 1px 1px 1px #CFCFCF; }
 
 #formButtons {
-  text-align: center; }
+  height: 25%;
+  display: flex;
+  justify-content: space-around; }
 
 #reset, #calculate, #getQuote {
-  margin: 5%;
   background-color: #339235;
   color: #FFF3F3;
   font-size: 1.5vw;
-  height: 20%;
-  width: 10%;
+  height: 25%;
+  width: 15%;
   border-radius: 35px;
-  border: none; }
+  border: none;
+  box-shadow: 1px 1px 1px #CFCFCF;
+  margin: 1%; }
+
+#getQuote {
+  margin: 5%; }
 
 #calculate:hover {
   background-color: #FFF3F3;
@@ -192,26 +205,23 @@ input, #country {
 #calcResult, #formButtons {
   width: 100%; }
 
-#myTable {
-  margin: auto;
-  width: 100%;
-  text-align: left; }
-
-th {
-  color: #339235;
-  font-size: 1.5vw; }
+#resultMSG {
+  color: #339235; }
 
 #insurInfo {
   background-color: #CECECE;
   width: 100%;
   text-align: center; }
 
-h3 {
+h3, #resultMSG {
   font-size: 2vw;
   font-weight: normal; }
 
 p, span {
   font-weight: normal; }
+
+#infoP {
+  font-size: 1.5vw; }
 
 .twinDivs {
   width: 25%;
