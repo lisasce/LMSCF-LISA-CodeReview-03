@@ -1,3 +1,31 @@
+@media screen and (max-width: 502px) {
+  .twinDivs {
+    width: 90% !important; }
+
+  #imgInHeaderRight {
+    display: none; }
+
+  header {
+    height: 4.5em; }
+
+  #CFlogo {
+    max-width: initial !important; }
+
+  h2, #getQuote, h5 {
+    font-size: 2rem !important; }
+
+  #infoP, #copyRight, h3, .navA, #reset, #calculate, #resultMSG, h1 {
+    font-size: 1.3rem !important; }
+
+  #reset, #calculate {
+    width: auto !important; }
+
+  #reset {
+    background-color: #F49292 !important;
+    color: black !important; } }
+@media only screen and (min-width: 503px) and (max-width: 1000px) {
+  .twinDivs {
+    width: 90% !important; } }
 body {
   font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica;
   margin: 0;
