@@ -2,21 +2,27 @@ team = `[{
 	"firstName":"Fran",
 	"lastName":"Simpsons",
 	"email" : "fran@index.com",
-	"pic" : "fran2.png"
+	"pic" : "fran2.png",
+	"languages": "EN, FR, HU"
 },{
 	"firstName":"Lisa",
 	"lastName":"Simpsons",
 	"email" : "lisa@index.com",
-	"pic" : "lisa.png"
+	"pic" : "lisa.png",
+	"languages": "EN, FR, DE, IT, SP"
 },{
 	"firstName":"Bill",
 	"lastName":"Simpsons",
 	"email" : "bill@index.com",
-	"pic" : "bill.png"
+	"pic" : "bill.png",
+	"languages": "EN, RU"
+
 },{
 	"firstName":"Fritz",
 	"lastName":"Simpsons",
 	"email" : "fritz@index.com",
-	"pic" : "fritz.png"
+	"pic" : "fritz.png",
+	"languages": "EN, DE, HU, GR"
+
 }]`;
 

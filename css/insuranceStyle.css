@@ -236,6 +236,10 @@ input, #country {
 #resultMSG {
   color: #339235; }
 
+#conditions {
+  color: #339235;
+  font-size: 0.8em; }
+
 #insurInfo {
   background-color: #CECECE;
   width: 100%;

@@ -13,6 +13,7 @@ var c = document.getElementById("calculation");
 
 function resetFunc(){
 	resetButton.click();
+	document.getElementById("resultMSG").innerHTML = "Printed calculation goes hier";
 }
 
 function showCalc(){
@@ -38,16 +39,28 @@ function getVal(){
 function calculateInsurance(hp, a, n, c){
 	var insuranceTotal = 0;
 	var msg = n + ", your insurance would cost in total: EUR ";
-	if (c == "AU"){
-		insuranceTotal = (hp * 100) / a + 50;
+	var cond = `<p id="conditions">All statements are subject to the terms, exclusions and conditions of the applicable policy. In all instances current policy contract language prevails. Products, services and discounts referenced herein are not available in all states or in all underwriting companies. Furthermore, the products and prices of our various CF Insurance business segments differ. Coverage is subject to individual policyholders meeting the applicable underwriting qualifications and state availability. Other terms, conditions and exclusions may apply.</p>`;
+	if ( isNaN(hp) || isNaN(a) || n == ""){
+		alert("Some fields are empty. Sorry, we need full information to quote.");
 	}
-	else if (c == "HU"){
-		insuranceTotal = (hp * 120) / a + 100;
-	}
-	else if (c == "GR"){
-		insuranceTotal = (hp * 150) / (a+3) + 50;
+	else{
+		if (a < 18){
+			alert("Sorry, you are too young for an insurance.");
+		}
+		else{
+
+			if (c == "AU"){
+				insuranceTotal = (hp * 100) / a + 50;
+			}
+			else if (c == "HU"){
+				insuranceTotal = (hp * 120) / a + 100;
+			}
+			else if (c == "GR"){
+				insuranceTotal = (hp * 150) / (a+3) + 50;
+			}	
+			document.getElementById("resultMSG").innerHTML = (msg + insuranceTotal.toFixed(2)+cond);
+		}
 	}	
-	document.getElementById("resultMSG").innerText = (msg + insuranceTotal.toFixed(2));
 }
 
 

@@ -3,13 +3,17 @@ console.log(teamMembers.length);
 for (i=0; i < teamMembers.length ; i++){
 	var member = `
 				<div class="teamSMALL" id="smallDIVmember${i}">
-	        		<img  src="../img/${teamMembers[i].pic}" alt="member">
+	        		<a href= "mailto:${teamMembers[i].email}">
+	        		<img  src="../img/${teamMembers[i].pic}" alt="member" title="click me to @ me!">
+	        		</a>
 	        		<p>${teamMembers[i].firstName}</p>
         		</div>
 
         		<div class="teamBIG" id="bigDIVmember${i}">
 	        		<div>
-	        			<img  src="../img/${teamMembers[i].pic}" alt="member">
+						<a href= "mailto:${teamMembers[i].email}">
+	        			<img  src="../img/${teamMembers[i].pic}" alt="member" title="click me to @ me!">
+	        			</a>	
 	        		</div>
 
 	        		<div class="details">
@@ -18,6 +22,7 @@ for (i=0; i < teamMembers.length ; i++){
 			        			<li>First Name: ${teamMembers[i].firstName}</li>
 			        			<li>Last Name: ${teamMembers[i].lastName}</li>
 			        			<li>E-Mail: ${teamMembers[i].email}</li>
+			        			<li>Languages: ${teamMembers[i].languages}</li>
 			        			
 		        			</ul>
 		        		</p>
